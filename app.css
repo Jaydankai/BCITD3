@@ -1,0 +1,356 @@
+@font-face{
+    font-family: SFSB;
+    src: url(./fonts/SFProDisplay-SemiBold.ttf)
+}
+@font-face{
+    font-family: SFR;
+    src: url(./fonts/SFProDisplay-Regular.ttf)
+}
+@font-face{
+    font-family: SFL;
+    src: url(./fonts/SFProDisplay-Light.ttf)
+}
+@font-face{
+    font-family: SFCR;
+    src: url(./fonts/SF-Compact-Rounded-Regular.ttf)
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 20%}
+    50%{background-position:100% 81%}
+    100%{background-position:0% 20%}
+}
+.app{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 200vh;
+/*    background-color: aliceblue;*/
+    top: 0px;
+    left: 0px;
+}
+#div1{
+    width:100vw;
+    height:100vh;
+    justify-content: center;
+    display: flex;
+    top: 0px;
+    position:inherit;
+}
+#jayboulange{
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    margin-top: 80px;
+}
+#smalltitle{
+    font-family: SFL;
+    color:white;
+    font-size: 20pt;
+    position: absolute;
+    margin-top: 390px;
+}
+#bigtitle{
+    font-family: SFSB;
+    color:white;
+    font-size: 60pt;
+    position: absolute;
+    margin-top: 450px;
+}
+#smallp{
+    font-family: SFR;
+    color:white;
+    font-size: 20pt;
+    position: absolute;
+    margin-top:700px;
+    text-align: center;
+}
+
+#learnmore{
+    position: absolute;
+    margin-top: 1150px;
+    font-family: SFR;
+    font-size: 23pt;
+    color: RGB(200,83,255);
+    animation-duration: 3s;
+    animation-delay: 7s;
+}
+#explorearrow{
+    width:60px;
+    height:60px;
+    margin-top: 1200px;
+    position: absolute;
+    animation-duration: 3s;
+    animation-delay: 7s;
+}
+
+#div2{
+    width:100vw;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+/*    background-color: aquamarine;*/
+    flex-direction: column;
+/*    animation-duration: 1000s;*/
+}
+#productboxtop{
+    width:80vw;
+    height:30vh;
+/*    background-color: beige;*/
+    display: flex;
+}
+#productboxbottom{
+    width:80vw;
+    height:30vh;
+/*    background-color: #4dddff;*/
+    display: flex;
+    
+}
+.productholder{
+    flex:1;
+    background-color: rgba(255, 255, 255, 0.58);
+    margin: 20px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+/*    animation-duration: 100s;*/
+}
+#iconbox{
+    flex:3;
+/*    background-color: rebeccapurple;*/
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#iconbox img{
+  width: 200px;
+    height: 200px;
+    transition: transform .8s ease-in-out;
+}
+#iconbox img:hover {
+transform: rotate(-8deg);
+}
+#classname{
+    flex:0.5;
+/*    background-color: #a5ffd9;*/
+}
+#classname p{
+    font-family: SFCR;
+    font-size: 20pt;
+    text-align:center;
+}
+#menuprice{
+    flex:0.5;
+/*    background-color: aqua;*/
+}
+#menuprice p{
+    font-family: SFCR;
+    color:dimgray;
+    font-size: 13pt;
+    text-align: center;
+}
+#divBCM{
+    width:100vw;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+/*    background-color: #ffe17f;*/
+    flex-direction: column;
+    position: absolute;
+    top: 2900px;
+    background: linear-gradient(127deg, RGB(66, 53, 247), RGB(254, 144, 246));
+    animation: AnimationName 3s ease infinite;
+    background-size: 400% 400%;
+}
+#back{
+    position: absolute;
+    margin-top: -500px;
+    font-family: SFR;
+    font-size: 23pt;
+    color: white;
+}
+#backarrow{
+    width:60px;
+    height:60px;
+    margin-top: -560px;
+    position: absolute;
+}
+#infobox{
+    width: 80vw;
+    height:50vh;
+    background-color: azure;
+    border-radius: 80px;
+    display:flex;
+}
+#largeicon{
+    flex:1;
+/*    background-color: antiquewhite;*/
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#largeicon img{
+    width:600px;
+    height:600px;
+}
+#textinfo{
+    flex:1.8;
+/*    background-color: aquamarine;*/
+}
+#classtitle{
+    flex:1;
+/*    background-color: palevioletred;*/
+}
+#classtitle p{
+    font-family: SFSB;
+    color: black;
+    font-size: 60pt;
+    margin-left: 80px;
+}
+#classid{
+    flex:5;
+/*    background-color: pink;*/
+}
+#classid p{
+font-family: SFR;
+    color: black;
+    font-size: 25pt;
+    margin-left: 80px;
+    margin-right: 60px;
+}
+#classid ul{
+font-family: SFR;
+    color: black;
+    font-size: 25pt;
+    margin-left: 80px;
+    margin-right: 60px;
+    line-height: 55px;
+}
+#divCTE{
+    width:100vw;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #ff7fdd;
+    flex-direction: column;
+    position: absolute;
+    top: 4350px;
+    background: linear-gradient(127deg, RGB(252, 244, 32), RGB(241, 93, 33));
+    animation: AnimationName 3s ease infinite;
+    background-size: 400% 400%;
+}
+#divDCD{
+    width:100vw;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #ff7fdd;
+    flex-direction: column;
+    position: absolute;
+    top: 5800px;
+    background: linear-gradient(127deg, RGB(252, 244, 32), RGB(238, 37, 82));
+    animation: AnimationName 3s ease infinite;
+    background-size: 400% 400%;
+}
+#divDSF{
+    width:100vw;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #ff7fdd;
+    flex-direction: column;
+    position: absolute;
+    top: 7250px;
+    background: linear-gradient(127deg, RGB(240, 22, 116), RGB(187, 145, 194));
+    animation: AnimationName 3s ease infinite;
+    background-size: 400% 400%;
+}
+#divDS1{
+    width:100vw;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #ff7fdd;
+    flex-direction: column;
+    position: absolute;
+    top: 8700px;
+    background: linear-gradient(127deg, RGB(249, 179, 133), RGB(236, 18, 29));
+    animation: AnimationName 3s ease infinite;
+    background-size: 400% 400%;
+}
+#divPJM{
+    width:100vw;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #ff7fdd;
+    flex-direction: column;
+    position: absolute;
+    top: 10150px;
+    background: linear-gradient(127deg, RGB(192, 223, 115), RGB(0, 165, 67));
+    animation: AnimationName 3s ease infinite;
+    background-size: 400% 400%;
+}
+#divPSD{
+    width:100vw;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #ff7fdd;
+    flex-direction: column;
+    position: absolute;
+    top: 11600px;
+    background: linear-gradient(127deg, RGB(1, 173, 241), RGB(3, 168, 153));
+    animation: AnimationName 3s ease infinite;
+    background-size: 400% 400%;
+}
+#divVAE{
+    width:100vw;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #ff7fdd;
+    flex-direction: column;
+    position: absolute;
+    top: 13050px;
+    background: linear-gradient(127deg, RGB(108, 254, 246), RGB(108, 0, 245));
+    animation: AnimationName 3s ease infinite;
+    background-size: 400% 400%;
+}
+#divWBM{
+    width:100vw;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #ff7fdd;
+    flex-direction: column;
+    position: absolute;
+    top: 14500px;
+    background: linear-gradient(127deg, RGB(188, 140, 190), RGB(0, 173, 238));
+    animation: AnimationName 3s ease infinite;
+    background-size: 400% 400%;
+}
+#divWD2{
+    width:100vw;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #ff7fdd;
+    flex-direction: column;
+    position: absolute;
+    top: 15950px;
+    background: linear-gradient(127deg, RGB(79, 1, 88), RGB(250, 157, 158));
+    animation: AnimationName 3s ease infinite;
+    background-size: 400% 400%;
+}
